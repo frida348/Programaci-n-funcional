@@ -16,3 +16,4 @@ En el presente trabajo se explicará el proceso que se llevo a cabo para esta pe
 ## Instalación y configuración del notebook ##
 
 1. Para la instalación, ingresamos al sitio oficial de jupyter [enlace](https://jupyter.org/install). Copiamos y pegamos en la terminal el codigo que nos muestra en el apartado de Jupyter Notebook ***pip install notebook***.
+![](C:\Users\USUARIO\Pictures\Screenshots\cap.png)
