@@ -6,7 +6,6 @@
 *Integrantes:*
 
 -Frida Pineda Alvarado
-
 -Miguel Angel Reyes Martínez
 
 
