@@ -9,7 +9,7 @@
 -Miguel Angel Reyes Martínez
 
 
-En el presente trabajo se explicará el proceso que se llevo a cabo para esta pequeña parte de nuestro proyecto, el cual consiste en la resolución de ejercicios en el lenguaje Racket. Mostraremos los pasos que llevamos a cabo, desde la instalación y configuración del notebook, la solución de los ejercicios propuestos y descripción de la ejecución de cada uno de los problemas.
+En el presente trabajo se explicará el proceso que se llevo a cabo para esta pequeña parte de nuestro proyecto, el cual consiste en la resolución de ejercicios en el lenguaje Racket. Mostraremos los pasos que realizamos, desde la instalación y configuración del notebook, la solución de los ejercicios propuestos y hasta la descripción de la ejecución de cada uno de los problemas.
 
 
 ## Instalación y configuración del notebook ##
@@ -25,7 +25,7 @@ En el presente trabajo se explicará el proceso que se llevo a cabo para esta pe
 4. Abrimos el "Panel de control" de Windows, buscamos "Sistema" y hacemos clic en "Editar variables de entorno del sistema".
 ![](https://github.com/frida348/Programaci-n-funcional/assets/112607095/baa63e67-9c94-4466-aed3-3b12b13df153)
 
-6. En la ventana "Propiedades del sistema", hacemos clic en "Variables de entorno". En la sección "Variables del sistema", busca la variable llamada "Path" y selecciónala, luego haz clic en "Editar".
+6. En la ventana "Propiedades del sistema", hacemos clic en "Variables de entorno". En la sección "Variables del sistema", buscamos la variable llamada "Path" y la seleccionamos, luego hacemos clic en "Editar".
 ![](https://github.com/frida348/Programaci-n-funcional/assets/112607095/abc598f1-b0fa-4db3-a433-0522ac99bdd7)
 
 7. Hacemos click en "Examinar" y seleccionamos la carpeta donde se encuentra instalado Racket. Aceptamos todo y guardamos.
