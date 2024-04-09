@@ -66,5 +66,4 @@ En el presente trabajo se explicará el proceso que se llevo a cabo para esta pe
 
 9. **Función Binario(n)**: Esta función convierte un número entero n a binario. Utiliza la recursión para dividir n por 2 hasta que n sea menor que 2. En cada paso de la recursión, calcula el residuo de n dividido por 2 (el último dígito binario de n) y lo agrega a la lista de dígitos binarios.
 
-10. **Función para calcular PI**: Esta función no está implementada en el código proporcionado. Sin embargo, se menciona que debe utilizar la serie de Leibnitz y una función recursiva para calcular el valor de PI. La serie de Leibnitz para PI es una serie infinita que converge a PI/4. La serie es 1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11 + ....
-
+10. **Función para calcular PI**:
