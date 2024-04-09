@@ -45,5 +45,26 @@ En el presente trabajo se explicará el proceso que se llevo a cabo para esta pe
 12. Creamos nuestras primeras notas :)
 ![](https://github.com/frida348/Programaci-n-funcional/assets/112607095/9edc3832-c38b-4c35-a51b-42038b621480)
 
+
 ## Descripción de cada problema ## 
+
+1. **Función combinatorio(n, k)**: Esta función calcula el número combinatorio C(n, k) utilizando una definición recursiva. El número combinatorio C(n, k) es el número de formas de seleccionar k elementos de un conjunto de n elementos. La función retorna 0 si n es menor que k, 1 si k es 0 o n es igual a k, y en otros casos, llama a sí misma recursivamente con los argumentos (n-1, k-1) y (n-1, k), y suma los resultados.
+
+2. **Función mcd(a, b)**: Esta función calcula el Máximo Común Divisor (MCD) de dos enteros a y b utilizando la propiedad de que MCD(a, b) = MCD(a, b-a). La función imprime a si a es igual a b, llama a sí misma con los argumentos (a, b-a) si a es menor que b, y con los argumentos (b, a) si a es mayor que b.
+
+3. **Función primos**: La función primo verifica si un número n es primo, iterando desde 2 hasta la raíz cuadrada de n para buscar un divisor. Si encuentra alguno, retorna #f; de lo contrario, retorna #t. La función primos genera una lista de números primos entre inicio y fin. Si inicio es mayor que fin, retorna una lista vacía. Para cada número en el rango, si es primo, lo agrega a la lista y avanza al siguiente número; de lo contrario, solo avanza al siguiente número. Al final, retorna la lista de primos encontrados.
+
+4. **Función busqueda(lista, n)**: Esta función busca un elemento n en una lista. Retorna `#t` (verdadero) si n es un miembro de la lista, y `#f` (falso) si n no es un miembro de la lista.
+
+5. **Función invertir(lista)**: Esta función invierte una lista utilizando una función auxiliar llamada acumulador. La función acumulador toma una lista y una lista de resultados como argumentos, y se llama a sí misma recursivamente con el resto de la lista y el resultado concatenado con el primer elemento de la lista.
+
+6. **Función eliminar(lista, n)**: Esta función elimina un elemento n de una lista utilizando una función auxiliar llamada eliminador. La función eliminador recorre la lista recursivamente, omite el elemento n si lo encuentra, y conserva el elemento si no es n.
+
+7. **Función palindromo(n)**: Esta función verifica si un número entero n es un palíndromo. Convierte el número n a una cadena de caracteres, calcula la longitud de la cadena, y luego verifica si el primer y el último carácter de la cadena son iguales. Si son iguales, llama a sí misma recursivamente en el resto de la cadena.
+
+8. **Función SumaDigitos(n)**: Esta función encuentra la suma de los dígitos de un número entero n. Utiliza la recursión para dividir n por 10 hasta que n sea un número de un solo dígito. En cada paso de la recursión, calcula el residuo de n dividido por 10 (el último dígito de n) y lo suma al resultado de la llamada recursiva a SumaDigitos con n dividido entre 10 (n con su último dígito eliminado).
+
+9. **Función Binario(n)**: Esta función convierte un número entero n a binario. Utiliza la recursión para dividir n por 2 hasta que n sea menor que 2. En cada paso de la recursión, calcula el residuo de n dividido por 2 (el último dígito binario de n) y lo agrega a la lista de dígitos binarios.
+
+10. **Función para calcular PI**: Esta función no está implementada en el código proporcionado. Sin embargo, se menciona que debe utilizar la serie de Leibnitz y una función recursiva para calcular el valor de PI. La serie de Leibnitz para PI es una serie infinita que converge a PI/4. La serie es 1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11 + ....
 
