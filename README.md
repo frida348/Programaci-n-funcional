@@ -66,4 +66,4 @@ En el presente trabajo se explicará el proceso que se llevo a cabo para esta pe
 
 9. **Función Binario(n)**: Esta función convierte un número entero n a binario. Utiliza la recursión para dividir n por 2 hasta que n sea menor que 2. En cada paso de la recursión, calcula el residuo de n dividido por 2 (el último dígito binario de n) y lo agrega a la lista de dígitos binarios.
 
-10. **Función para calcular PI**:
+10. **Función para calcular PI**: La función calcularpi usa la serie de Leibniz para aproximar π. Toma un número n de términos para calcular la aproximación. La función interna leibnitz calcula los términos de la serie de Leibniz recursivamente, alternando signos y sumando los resultados. El resultado se multiplica por 4 para obtener la aproximación final de π.
