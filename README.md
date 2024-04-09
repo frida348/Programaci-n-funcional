@@ -40,11 +40,11 @@ En el presente trabajo se explicará el proceso que se llevo a cabo para esta pe
 10. Ejecutamos el siguiente comando para registrar el kernel de IRacket con Jupyter: ***raco iracket install*** y procedemos a abrir nuestra notebook con el comando del paso 2: ***jupyter notebook***
 ![](https://github.com/frida348/Programaci-n-funcional/assets/112607095/d9579081-8ffb-475f-99c4-dd71e482d5a9)
 
-11. Procedemos a crear un nuevo Proyecto y seguidamente nuestras notas.
+11. Procedemos a crear un nuevo Proyecto
 ![](https://github.com/frida348/Programaci-n-funcional/assets/112607095/5f40d494-0051-48a7-a9be-031bac789879)
 
+12. Creamos nuestras primeras notas :)
 ![](https://github.com/frida348/Programaci-n-funcional/assets/112607095/9edc3832-c38b-4c35-a51b-42038b621480)
-
 
 ## Descripción de cada problema ## 
 
